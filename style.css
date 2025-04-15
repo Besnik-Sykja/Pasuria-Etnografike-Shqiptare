@@ -1,0 +1,401 @@
+body {
+  margin: 0;
+  padding: 0;
+  
+  font-family: "Comic Neue", sans-serif;
+}
+
+.tema-img {
+  height: 150px;
+  width: 540px;
+}
+
+.topbar {
+  background-color: rgb(250, 250, 250);
+  height: 150px;
+  margin: 5px auto;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  border: solid rgb(236, 236, 236);
+  border-width: 2px;
+  justify-content: center;
+  width: 100%;
+  max-width: 1100px;
+}
+
+.main-bar {
+  background-color: rgb(227, 227, 227);
+  color: white;
+  height: 50px;
+  position: absolute;
+  top: 150px;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  z-index: 1000;
+  border: solid rgb(211, 210, 210);
+  border-width: 2px;
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  background-color: rgb(227, 227, 227); 
+}
+
+.container {
+  margin: 30px auto 0 auto;
+  background-color: rgb(253, 253, 253);
+  border: solid rgb(218, 217, 217);
+  border-width: 2px;
+  padding: 30px 20px 580px 20px ;
+  width: 100%;
+  max-width: 1040px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hyrja {
+  height: 50px;
+  background-color: rgb(227, 227, 227);
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(180, 180, 180);
+  border-bottom-color: rgb(227, 227, 227);
+  cursor: pointer;
+  border-top: none;
+}
+
+.hyrja:hover {
+  background-color: rgb(245, 245, 245);
+  border-bottom-color: red;
+}
+
+.home-button {
+  align-items: center;
+  margin-right: 30px;
+}
+
+.mesme,
+.jugut,
+.veriut {
+  height: 50px;
+  background-color: rgb(227, 227, 227);
+  text-align: center;
+  font-size: 15px;
+  cursor: pointer;
+  border: solid rgb(180, 180, 180);
+  border-width: 1px;
+  border-top: none;
+  border-bottom-color: rgb(227, 227, 227);
+}
+
+.mesme:hover,
+.jugut:hover,
+.veriut:hover {
+  background-color: rgb(245, 245, 245);
+  border-bottom: solid red;
+  border-width: 1px;
+}
+
+.search-bar {
+  position: relative;
+  left: 30px;
+  width: 250px;
+  height: 30px;
+  padding-left: 15px;
+  border-radius: 50px;
+  border: solid 2px;
+  border-color: rgb(233, 230, 230);
+  font-size: 15px;
+  display: inline;
+  margin-left: 30px;
+}
+
+.search-button {
+  position: absolute;
+  left: 840px;
+  height: 35px;
+  margin-left: 50px;
+  background-color: black;
+  color: white;
+  border: none;
+  font-size: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  cursor: pointer;
+}
+.search-button:active {
+  background-color: rgb(71, 71, 71);
+  cursor: pointer;
+}
+
+.div-hyrja1,
+.div-hyrja2,
+.div-hyrja3 {
+  display: block;
+  box-sizing: border-box; 
+}
+
+.div-hyrja1 {
+  height: 400px;
+  width: 500px;
+}
+
+.div-hyrja2 {
+  height: 500px;
+  width: 230px;
+}
+
+.div-hyrja3 {
+  height: 500px;
+  width: 310px;
+  padding: 20px;
+}
+
+.div-hyrja3 p {
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+}
+
+.search-result {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #f7f7f7;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 1024px) {
+  .div-hyrja1,
+  .div-hyrja2,
+  .div-hyrja3 {
+    width: 100%;
+    display: block;
+    margin-bottom: 15px;
+  }
+
+  .main-bar {
+    justify-content: center;
+  }
+
+  .search-bar {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main-bar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .search-button {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .search-bar {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .search-button {
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  .hyrja,
+  .veriut,
+  .mesme,
+  .jugut {
+    width: 100%;
+    font-size: 14px;
+  }
+}
+
+.slider-container {
+  width: 450px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 23px;
+  overflow: hidden;
+  position: relative;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 0;
+}
+
+.image-box {
+  position: relative;
+  width: 100%;
+  height: 250px;
+  overflow: hidden;
+}
+
+.slider-images {
+  display: flex;
+  width: 200%;
+  height: 100%;
+  transition: transform 0.6s ease-in-out;
+}
+
+.slider-images img {
+  width: 50%;
+  height: 100%;
+  object-fit: cover;
+  flex-shrink: 0;
+  background-color: #fff;
+  transition: none;
+}
+
+.caption {
+  margin: 0;
+  padding: 10px 0;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  background-color: #fff;
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-image: linear-gradient(45deg, #ff5f6d, #ffc371);
+  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  animation: fadeIn 0.3s ease-in-out;
+  line-height: 1.2;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.nav-buttons {
+  position: absolute;
+  bottom: 5px;
+  right: 10px;
+  display: flex;
+  gap: 10px;
+  z-index: 10;
+}
+
+.nav-btn {
+  background-color: rgba(30, 30, 30, 0.6);
+  border: none;
+  color: white;
+  font-size: 13px;
+  width: 26px;
+  height: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: background-color 0.3s ease;
+}
+
+.nav-btn:hover {
+  background-color: rgba(0, 0, 0, 0.85);
+}
+
+.paragraph-tema {
+  font-size: 24px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  text-align: center;
+  font-family: "Comic Neue", sans-serif;
+  margin-bottom: 0;
+  font-style: italic;
+  color: transparent;
+  -webkit-text-stroke: 1.2px #000;
+  margin-top: 50px;
+}
+.paragraph-vazhdim {
+  font-size: 18px;
+  line-height: 1.2;
+  text-align: center;
+  font-weight:400 ;
+  padding: 1px 5px 0 5px;
+  color: #000000;
+  font-family: "Comic Neue", sans-serif;
+  letter-spacing: normal;
+  margin-top: 20px;
+  font-style: italic;
+}
+
+.extra-below-slider{
+  position: absolute;
+  top: 580px;
+  left: 280px;
+  width: 400px;
+  font-size: 18px;
+  line-height: 1.2;
+  text-align: center;
+  font-weight:400;
+  padding: 1px 5px 0 5px;
+  color: #000000;
+  font-family: "Comic Neue", sans-serif;
+  letter-spacing: normal;
+}
+
+.extra-below-slider2{
+  position: absolute;
+  top: 280px;
+  left: 400px;
+  font-size: 18px;
+  line-height: 1.2;
+  text-align: center;
+  font-weight:400;
+  padding: 1px 5px 0 5px;
+  color: #000000;
+  font-family: "Comic Neue", sans-serif;
+  letter-spacing: normal;
+}
+
+.class-p{
+  margin-top: 80px;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  text-align: center;
+  font-family: "Comic Neue", sans-serif;
+  margin-bottom: 0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.class-p1{
+  font-size: 18px;
+  line-height: 1.3;
+  text-align: center;
+  font-weight:400 ;
+  padding: 1px 5px 0 5px;
+  color: #000000;
+  font-family: "Comic Neue", sans-serif;
+  letter-spacing:normal;
+  margin-top: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.no-result{
+  font-size: 31px;
+  font-weight: bold;
+}
