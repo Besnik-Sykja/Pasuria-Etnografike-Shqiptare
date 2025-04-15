@@ -302,7 +302,27 @@ const data = {
   "Vau i Dejës": "Një qytet i vogël i njohur për liqenin e tij dhe mundësitë për turizëm.",
   "Tragjas": "Një qytet i njohur për mundësitë për zhvillimin e bujqësisë dhe peshkimin.",
   "Selenicë": "Një qytet i njohur për industrinë dhe zhvillimin bujqësor.",
-  "Saranda": "Një qytet i njohur për plazhet dhe traditat bregdetare."
+  "Saranda": "Një qytet i njohur për plazhet dhe traditat bregdetare.",
+  "Muzeu Etnografik i Krujës": "Ndodhet në kala dhe është një nga më të rëndësishmit në Shqipëri. Paraqet jetën dhe kulturën tradicionale shqiptare, veçanërisht gjatë shekujve XVIII-XIX.",
+  "Muzeu Etnografik i Beratit": "Vendosur në një shtëpi tipike të shek. XVIII, ofron një pasqyrë të mënyrës së jetesës dhe kulturës popullore beratase.",
+  "Muzeu Etnografik i Gjirokastrës": "Ndodhet në vendin ku dikur ishte shtëpia e diktatorit Enver Hoxha. Paraqet objekte të jetës së përditshme dhe artizanatit lokal.",
+  "Muzeu Etnografik i Shkodrës": "Ndodhet në një shtëpi të shekullit XIX dhe përmban ekspozita të kulturës dhe jetës tradicionale të veriut të Shqipërisë.",
+  "Muzeu Etnografik i Elbasanit": "Ndodhet pranë Kalasë së Elbasanit, në një shtëpi tradicionale dhe ruan objekte të artizanatit dhe jetës së përditshme të zonës.",
+  "Muzeu Etnografik i Tiranës": "I vendosur pranë Kalasë së Tiranës, përmban ekspozita që paraqesin jetën urbane dhe rurale të Shqipërisë së Mesme.",
+  "Muzeu Etnografik i Korçës": "Ndodhet në një ndërtesë karakteristike dhe përmban veshje popullore, mjete bujqësore dhe objekte të artizanatit lokal.",
+  "Muzeu Etnografik i Përmetit": "I vogël por i pasur, ofron një pasqyrë të kulturës popullore dhe jetës së përditshme në krahinën e Dangëllisë.",
+  "Muzeu Etnografik i Sarandës": "Përmban objekte që përfaqësojnë jetën bregdetare dhe traditat e Labërisë së Jugut.",
+  "Muzeu Etnografik i Kukësit": "Ndodhet në qytetin e ri të Kukësit dhe përmban objekte të kulturës materiale të zonës së veriut.",
+  "Muzeu Etnografik i Dibrës": "Ndodhet në Peshkopi dhe pasqyron traditat e veshjes, punimeve me dorë dhe mjetet e përdorura në jetën e përditshme.",
+  "Muzeu Etnografik i Hasit": "Prezantimi i kulturës dhe traditave të veçanta të trevës së Hasit.",
+  "Muzeu Etnografik i Tropojës": "Pasqyron jetën malësore dhe kulturën epike të kësaj krahine.",
+  "Muzeu Etnografik i Gramshit": "Një muze i vogël por i rëndësishëm për ruajtjen e trashëgimisë popullore të krahinës.",
+  "Muzeu Etnografik i Fierit": "Përmban veshje dhe mjete që lidhen me jetën bujqësore të zonës së Myzeqesë.",
+  "Muzeu Etnografik i Librazhdit": "Ofron një koleksion të thjeshtë por autentik të traditave lokale.",
+  "Muzeu Etnografik i Vlorës": "Ndodhet në zemër të qytetit dhe pasqyron kulturën e Labërisë dhe Rrëzës së Vlorës.",
+  "Muzeu Etnografik i Durrësit": "Nuk është muze i madh por ka ekspozita të përkohshme etnografike dhe kultura popullore e bregdetit adriatik.",
+  "Muzeu Etnografik i Peqinit": "Një muze i vogël lokal që përfaqëson jetën tradicionale të Shqipërisë së Mesme.",
+  "Muzeu Etnografik i Kolonjës (Ersekë)": "Ndodhet në Ersekë dhe përmban veshje, stoli dhe mjete të jetës tradicionale të Kolonjës."
 
 };
 
